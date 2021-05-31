@@ -116,4 +116,27 @@ footer {
     height: 50vh;
   }
   #heromugs { background-image: url(heromugs.jpg); }
-  
+  #herogutiar { background-image: url(heroguitar.jpg); }
+#flow {
+  display: flex;
+  flex-direction: row;
+  }
+  #moblie { display: none; }
+  #desktop { display: inline; }
+.detail {
+  display: flex;
+  flex-direction: row;
+  }
+  h4 {
+    margin-left: 10%
+      margin-right: 10%
+  }
+}
+/* CLOSED */
+/* OPENED */
+@media (min-width: 1024px)
+  {
+    @supports (display: grid) {
+      header { grid-area: header; }
+      nav { grid-area: nav; }
+      main { grid-area
